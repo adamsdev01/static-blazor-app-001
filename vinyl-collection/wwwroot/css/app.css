@@ -100,10 +100,18 @@ a, .btn-link {
         content: var(--blazor-load-percentage-text, "Loading");
     }
 
- .footer {
-
- } 
+/* App footer */
+.footer {
+    position: fixed;
+    left: 0;
+    padding: 20px;
+    bottom: 0;
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
  
- .checked {
-    
- }
+.checked {
+    color: orange;
+  }
